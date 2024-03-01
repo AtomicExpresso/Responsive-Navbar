@@ -1,5 +1,6 @@
 //======================================
 //Get document id's and assing variables
+
 const navLinks = document.getElementById('nav-links');
 let hamburgerMenu = document.getElementById('hamburger-menu');
 const secondMenu = document.getElementById('second-menu');
@@ -63,3 +64,5 @@ const toggleMenu = () => {
 hamburgerMenu.addEventListener('click', toggleMenu);
 window.addEventListener('resize', windowResize);
 window.addEventListener('load', windowResize);
+
+//===============================================
