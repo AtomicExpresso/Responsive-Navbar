@@ -1,2 +1,2 @@
 # Responsive-Navbar
-A responsive navbar
+A responsive navbar with a hamburger menu for mobile support
