@@ -1,15 +1,17 @@
 body{
-  background-color: rgb(111, 111, 111);
+  background-color: rgb(255, 255, 255);
   margin: 0;
 }
 
 .nav-menu {
   display: flex;
   flex-direction: row;
-  line-height: 0;
+  line-height: 5px;
+  padding: 10px;
   z-index: 100;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
 .nav-links{
@@ -37,7 +39,8 @@ body{
   display: flex;
   flex-direction: row;
   transition: 0.2s;
-  background-color: rgb(246, 246, 246);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
 .second-menu-show li {
@@ -51,7 +54,7 @@ body{
   right: 5vw;
   position: absolute;
   cursor: pointer;
-  top: 1vh;
+  align-self: center;
 }
 
 .toggle-menu img{
